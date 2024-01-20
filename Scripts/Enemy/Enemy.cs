@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public void init(Quaternion rotation)
+    public void Init(Quaternion rotation)
     {
         transform.rotation = rotation;
     }
