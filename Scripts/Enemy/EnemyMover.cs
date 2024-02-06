@@ -4,11 +4,11 @@ using UnityEngine;
 
 [RequireComponent(typeof(Enemy))]
 
-public class EnemyControls : MonoBehaviour
+public class EnemyMover : MonoBehaviour
 {
     [SerializeField] private float _speed;
     
-    void Update()
+    private void Update()
     {
         transform.Translate(Vector3.right * _speed * Time.deltaTime);
     }
