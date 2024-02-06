@@ -18,6 +18,5 @@ public class EnemyMover : MonoBehaviour
     public void SetDirection(Vector2 direction)
     {
         _direction = direction;
-        print(direction);
     }
 }
